@@ -1,0 +1,21 @@
+title: PP/PI ~ Twitter posters
+-
+date: 04-Jul-2013 00:02
+-
+tags: Script, Poster generator
+-
+selection: yes
+-
+content: 
+<b>[Pirate Party / Pirate Identity]</b> (Graduation project)<br />
+<br />
+<u>Twitter posters</u> :<br />
+Based on the Easy Poster's script, this program randomly and automatically lays out posters, using tweets containing selected keywords such as «party», «parti», «pirate», «piraten», «piraat», etc. as a content.It is a attempt to transform some «harmless» tweets into political posters with a sometime absurd meaning.It also gives an official dimension to every tweeted messages mentioning the Pirate Party, which admits in this way its own criticism (even if sometimes, it’s just about «pirate costume parties»).
+<br />
+<br />
+<u>Related</u> :<br />
+<span class="related">1. [Introduction](#PPPI-introduction)</span><br />
+<span class="related">2. [Identity](#PPPI-identity)</span><br />
+<span class="related">3. [Easy posters](#PPPI-easyposters)</span><br />
+4. Twitter posters<br />
+<span class="related">5. [Hybrid posters](#PPPI-hybridposters)</span><br />

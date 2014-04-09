@@ -1,0 +1,52 @@
+<div id="repotitle" class="top">
+	<h2>
+		Index of /samuel&shy;riversmoore&shy;.net
+	</h2>
+</div>
+<div id="header">
+	<h1>
+		@name<br>
+		@profession
+	</h1>
+		@email
+		<br>
+		Content managed by <a href="http://www.staceyapp.com">stacey</a>.</em>
+</div>
+<table id="myTable" class="tablesorter">
+	<thead>
+		<tr id="headline"> 
+			<th id="left"><span class="subHead">Name</span></th>	
+			<th class="opt3"><span class="subHead sorter-shortDate dateFormat-ddmmyyyy">Last Modified</span></th>	
+			<th class="opt1"><span class="subHead">Size</span></th>
+			<th class="opt2"><span class="subHead">Description</span></th>
+		</tr>
+	</thead>			
+	<tbody id="data">
+		foreach $root do
+			if $children do
+				foreach $children do
+					<tr class="project" id="@slug" title="@title (@tags)" alt="@slug (@tags)">
+						<td class="section parent">
+							if @thumb do 
+								<div class="iconCont"><img class="icon" style="display:inline-block" src="@thumb" class="project-thumb" alt=""> </div>
+							endif
+							<div class="titres"> <a href="@url" title="@title">@title</a> </div>
+						</td>
+						<td class="parent dates opt3">@date</td>
+						<td class="parent opt1">—</td>
+						<td class="parent opt2">@tags</td>
+					</tr>
+				endforeach
+			endif
+		endforeach
+	</tbody>
+</table>
+<div id="cale"></div>
+<div id="footer">
+	<div id="footerNav"> 
+		<img id="smile" style="display:inline-block" src="@root_path/public/docs/icons/fun.gif" alt="hello"> 
+		<div id="bottom"> <span id="fullName">Samuel Rivers-Moore</span><span id="SRM">SRM</span> @current_year  |  
+			<a class="atom-rss" href="@root_path/?/feed/">RSS</a></div>
+		</div>
+	</div>
+</div>

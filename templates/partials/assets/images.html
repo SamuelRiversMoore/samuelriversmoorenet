@@ -1,0 +1,12 @@
+foreach $images do
+	<li class="image object">
+		<div class="objectContent">
+			<img class="lazy" data-src="@url" src="loading.gif" alt="@title" width="@width" height="@height">
+			<div class="description">
+				if @description do
+					<em>@description</em>
+				endif
+			</div>
+    	</div>
+    </li>
+endforeach

@@ -1,0 +1,11 @@
+title: SPORK
+-
+date: 06-Jun-2012 04:52
+-
+tags: Edition, Fanzine
+-
+content: 
+Spoon + fork = SPORK <br />We made this fanzine after a trip to Berlin’s Transmediale (in/compatible). It works as an archive of our thoughts, about Digital Art Conservation, collectively discussed and edited through e-mail exchanges.<br />I did the layout and wrote a short text about connections existing between the stone, the engraving and the hard drive, highlighting the winding road from the Rosetta Stone to the iPhone.<br />This fanzine was published in the context of a research seminar organized between ÉSAD Strasbourg and Karlsruhe’s ZKM entitled "Digital Arts Conservation".
+<br />
+<br />
+This project was coordinated by art teacher [Anne Laforet](http://www.sakasama.net) and involved six students.

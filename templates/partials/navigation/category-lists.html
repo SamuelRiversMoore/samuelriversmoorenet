@@ -1,0 +1,77 @@
+foreach $root do
+  if $children do
+      foreach $children do
+		<tr class="projects" id="parent">
+			<td class="section">
+				if @thumb do <img id="myimg" style="display:none" src="@thumb" class="project-thumb" alt=""> endif
+				<a href="@url">@title</a>
+			</td>
+			<td>
+			  @date
+			</td>
+			<td>
+				—
+			</td>
+			<td>
+				@tags
+			</td>
+	    </tr>
+
+	<tr class="expand-child" id="child"> 
+		<td colspan = "2">
+			
+			:media
+		</td>
+		<td>
+			@content
+			
+			<br>
+			<div id="gallery-navigation" class="col three">
+				<p><a href="#" id="next-image">Next image</a> <em>&rarr;</em></p>
+				<p><a href="#" id="previous-image">Previous image</a> <em>&larr;</em></p>
+			</div>
+		</td>
+		<td>
+			blabla
+		</td>
+	</tr>
+
+      endforeach
+  endif
+endforeach
+
+    <script type="text/javascript" charset="utf-8">
+      document.getElementsByTagName('body')[0].className += ' js-enabled';
+    </script>
+
+
+<script src="@root_path/public/docs/js/gallery.js" type="text/javascript" charset="utf-8"></script>
+<script src="@root_path/public/docs/js/init-gallery.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+<script type="text/javascript" id="js">	
+
+var d = document.getElementById("child");
+//			d.className = d.className + " open";
+
+	$(function() {
+    	$(".expand-child").hide();
+		$('.projects').click(function(event){
+//			$(".open").hide();
+
+		    event.stopPropagation();
+		    var $target = $(event.target);
+			$(this).nextUntil('tr.projects').toggle();
+//			$(this).className += " open";
+			
+		});
+	});
+	
+	// ajouter une classe "ouvert" quand click
+	// quand click changer état des autres "ouverts" :
+	// $(".open").hide();
+	// $(this).show();
+	
+</script>
+

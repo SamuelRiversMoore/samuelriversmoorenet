@@ -1,0 +1,21 @@
+title: PP/PI ~ Easy posters
+-
+date: 04-Jul-2013 00:03
+-
+tags: Script, Poster generator
+-
+selection: yes
+-
+content: 
+<b>[Pirate Party / Pirate Identity]</b> (Graduation project)<br />
+<br />
+<u>Generated posters</u> :<br />
+A Processing script designed to set up posters very quickly and easily. The program automatically lays out the text typed by the user, adjusting each line to fit the poster's width. The result is kind of rough, urgent, giving some spontaneity to political communication.
+<br />
+<br />
+<u>Related</u> :<br />
+<span class="related">1. [Introduction](#PPPI-introduction)</span><br />
+<span class="related">2. [Identity](#PPPI-identity)</span><br />
+3. Easy posters<br />
+<span class="related">4. [Twitter posters](#PPPI-twitterposters)</span><br />
+<span class="related">5. [Hybrid posters](#PPPI-hybridposters)</span><br />

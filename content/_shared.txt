@@ -1,0 +1,33 @@
+name: Samuel Rivers-Moore
+-
+website: samuelriversmoore.net
+-
+profession: Graphic design, art & else
+-
+about: 
+Graduated from [ÉSAD Strasbourg](http://www.hear.fr/) in 2013. <br />
+-
+email: 
+<message@samuelriversmoore.net>
+-
+friends: 
+Friends :<br />
+[Tayeb Bayri](http://www.ttttttt.info) <br />
+[Pierre Tandille](http://www.lecollecteur.fr) <br />
+[Anne Laforet](http://www.sakasama.net) <br />
+[Delphine Dénéréaz](http://delphinedenereaz.tumblr.com) <br />
+[Pierre Faedi](http://www.pierre-faedi.com) <br />
+[Louison Coulom](http://louisonlouison.com) <br />
+[Pauline Barzilaï](http://cargocollective.com/paulinebarzilai) <br />
+[Felix Ramon](http://www.felixramon.net) <br />
+[Claire Serres](http://www.ligie.org) <br />
+[Diane Boisvin](http://www.dianeboivin.eu) <br />
+[Paul Souviron](http://paulsouviron.net) <br />
+[Nazareno Crea](http://www.nazareno.co.uk) <br />
+[Samuel Nyholm](http://sany.dk) <br />
+-
+networks: 
+[Open Source Publishing](http://osp.constantvzw.org/) <br />
+[PEZ-corp](http://www.pez-corp.net)  <br />
+[Collectif Sin](http://www.youtube.com/user/collectifsin1) <br />
+[French Fourch](http://www.frenchfourch.com/)

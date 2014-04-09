@@ -1,0 +1,30 @@
+<div class='media'>
+	<div id="@slug-nextbout" class="previous-image gallery-navigation"></div>
+	<div id="@slug-prevbout" class="next-image gallery-navigation"></div>
+		if $images do
+			:images
+		endif
+
+		if $video do
+			:video
+		endif
+
+		if $swf do
+			:swf
+		endif
+
+		if $html do
+			<li>
+				:html
+			</li>
+		endif
+
+			<div class="text-container">
+				<div class="texte">
+					@content
+				</div>
+			</div>
+	<div class="data">
+		<span class="count">1</span><span class="counter">/1</span> – <a href="#" class="info">T</a>
+	</div>
+</div>

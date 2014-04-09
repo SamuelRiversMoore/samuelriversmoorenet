@@ -1,0 +1,24 @@
+title: Livraison #14 – LaBelleVirtuelle
+-
+date: 26-Sep-2012 08:55
+-
+tags: Journal, Contemporary arts
+-
+selection: yes
+-
+content: 
+Livraison is a contemporary arts journal. <br />
+A different guest is invited to define and supervise its&nbsp;content for each issue. 
+<br /><br />
+This 14th issue was supervised by the [Urban Scenographies](http://www.eternalnetwork.org/scenographiesurbaines/) collective (ScU2) which has organized a virtual residency (no physical presence required) in Belleville with 40 international artists, connecting this very special and multicultural Parisian area to the rest of the world. The end result is this publication which challenges the usual perceptions of Belleville – and in a more general way, of France’s relations to foreigners.
+<br /><br />Each article is translated both in french and english. As a designer, I&nbsp;proposed to make a radical distinction between the two languages, symmetrically reversing each translation, giving to the journal its architecture structured around two reading directions. The object has two beginnings and two ends, two different front covers, two different narrative experiences defined by the reader’s own reading language. As a complement to this duality, a third reading direction has been given to the pictures, rotated 90 degrees : the&nbsp;visual becomes a buffer between the two languages.
+<br /><br />
+Fonts in use : <br />
+Reglo Bold by Sebastien Sanfilippo (OSP)<br />
+Linux Libertine by Philipp H. Poll<br />
+Liberation Mono by Steve Matteson
+<br /><br />
+More : <br />
+[http://labellevirtuelle.wordpress.com](http://labellevirtuelle.wordpress.com)<br />
+[http://www.r-diffusion.org/](http://www.r-diffusion.org/index.php?ouvrage=RHI-20)
+

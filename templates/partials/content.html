@@ -1,0 +1,129 @@
+<div id="repotitle" class="top">
+	<h1>
+		Index of /samuel&shy;riversmoore&shy;.net
+	</h1>
+</div>
+<table id="myTable" class="tablesorter">
+	<thead>
+		<tr id="headline"> 
+			<th id="left"><span class="subHead">Name</span></th>	
+			<th class="opt3"><span class="subHead sorter-shortDate dateFormat-ddmmyyyy">Last Modified</span></th>	
+			<th class="opt1"><span class="subHead">Size</span></th>
+			<th class="opt2"><span class="subHead">Description</span></th>
+		</tr>
+	</thead>
+	<tbody id="data">
+		foreach $root do
+			if $children do
+				foreach $children do
+					if @selection do
+						<tr class="project selected" id="@slug" title="@title [@tags]" alt="@slug [@tags]">
+					endif
+					if !@selection do
+						<tr class="project archived" id="@slug" title="@title [@tags]" alt="@slug [@tags]">
+					endif
+						<td class="section parent">
+							<div class="iconCont"><img class="icon" style="display:inline-block" src="@root_path/public/docs/icons/blank.png" alt="icon"></div> 
+							<div class="titres falselink" title="@title" alt="@title">@title</div>
+						</td>
+						<td class="parent opt3 dates">@date</td>
+						<td class="parent opt1 sizes">—</td>
+						<td class="parent opt2 tags @tags"><span class="tagCont">@tags</span></td>
+					</tr>
+					if @selection do
+						<tr class="expand-child selected" id="@slug-child"> 
+					endif
+					if !@selection do
+						<tr class="expand-child" id="@slug-child"> 
+					endif
+						<td class="fourColTd" colspan = "4">
+							<div class="child hideBeforeLoad">
+								if @blog do
+									<div class="blog">
+										@blog
+									</div>
+								endif
+								<div class='gallery'>
+									<div id="@slug-nextbout" class="next-image gallery-navigation"></div>
+									<div id="@slug-prevbout" class="previous-image gallery-navigation"></div>								
+									if @content do
+										<div class="text object">
+											<div class="text-conteneur">
+												<div class="text-box">
+													<div class='infoTitre'>
+														@title
+													</div>
+													<img class='cross' src='cross.gif' title='close (esc)'>
+													<div class='contenu'>
+														@content
+														if @related do
+															Related : <span class="related">@related</span>
+														endif
+													</div>
+												</div>
+											</div>
+										</div>	
+										<div class="infoSquare" title='informations'>i</div>
+									endif
+									<ul>									
+										if $video do
+											:video
+										endif
+										if $swf do
+											:swf
+										endif
+										if $html do
+											<li class="embed object">
+												:html
+											</li>
+										endif
+										if $images do
+											:images
+										endif
+									</ul>	
+								</div>
+							</div>
+						</td>
+					</tr>
+				endforeach
+			endif
+		endforeach
+	</tbody>
+</table>
+<div id="ligne"></div>
+<div id="socle">
+	<div id="otherProjects">+<span>0</span> more</div>
+</div>
+<div id="cale"></div>
+
+<div id="footer">
+	<div id="footerNav"> 
+		<img id="smile" style="display:inline-block" src="@root_path/public/docs/icons/fun.gif" alt="hello"> 
+		<div id="bottom"> <span id="fullName">Samuel Rivers-Moore</span><span id="SRM">SRM</span> @current_year  |  
+			<span id="aboutButton" class="falselink">About</span>  |  
+			<input class="selectBox" type="checkbox" name="selection" value="1" onchange="selectionChanged()"/> Selection  |  
+			<input class="infoBox" type="checkbox" name="informations" value="1" onchange="infoChanged()" checked/> Informations
+			<div id="rightNav"><img id="keyboard" style="display:inline-block" src="@root_path/keyboardOk.gif" title="keyboard navigation enabled" > |  <a class="atom-rss" href="@root_path/?/feed/">RSS</a></div>
+		</div>
+	</div>
+	<div id="about" class="hideBeforeLoad">
+		<div class="simpleColLeft">
+			@name<br>
+			@profession
+			@email
+			<br>
+			<br>
+			<em>Archive website handcoded by myself.<br>
+			Content managed by <a href="http://www.staceyapp.com">stacey</a>.</em>
+		</div>
+		<div class="simpleColLeft">
+			if @friends do
+				@friends
+			endif	
+			
+			if @networks do
+				@networks
+			endif	
+		</div> 
+	</div>
+</div>

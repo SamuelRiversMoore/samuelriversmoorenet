@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "HTML 4.01 Strict"
+  "http://www.w3.org/TR/html4/strict.dtd">
+  
+<html>
+	<head prefix="og: http://ogp.me/ns#">
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+		<link rel="shortcut icon" href="./favicon.ico">
+
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+		<title>Samuel Rivers-Moore – Archive website</title>
+		<meta name="description" content="Samuel Rivers-Moore's archive website – Graphic design, art and else." />
+
+		<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen">
+		<link rel="alternate" type="application/atom+xml" title="samuelriversmoore.net" href="@root_path/?/feed/">
+
+      	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery.tablesorter.min.js"></script> 
+		<script type="text/javascript">	
+
+			$(document).ready(function(){
+				// images nbr
+				$data.find('tr.project').each(function(){
+					var objects = $(this).nextUntil('tr.project').find("div.gallery ul").children('li.object');
+					var maxCount = objects.length;
+					if (maxCount <= 1){
+						$(this).find('td.sizes').text('1');
+					} else {
+						$(this).find('td.sizes').text(maxCount);
+					}
+				});
+
+				var sizes;
+				var date;
+				$.tablesorter.addParser({
+					id: "Date",
+					is: function (s) {
+						return false;
+					},
+					format: function (s, table) {
+						//return new Date(s).getTime() || '';
+						date = (s + '').match(/(\d{1,2}-\w{3}-\d{4})(\s+\d{1,2}:\d{1,2})/);
+						date[1] = date[1].split("-").join(" ");
+						return date ? new Date(date[1] + date[2]).getTime() || s : s;
+					},
+					type: "numeric"
+				});
+
+				$.tablesorter.addParser({ 
+					// set a unique id 
+					id: 'Size', 
+					is: function(s) { 
+						return false; 
+					}, 
+					format: function(s) { 
+						sizes = s;
+						if (sizes.indexOf("/") != -1) {
+							count = sizes.split('/');
+							sizes = count[1];
+						}
+						sizes = parseInt(sizes);
+						return sizes; 
+					}, 
+					type: "numeric" 
+				}); 
+	 
+				$("#myTable").tablesorter({
+					sortAppend: [[1,1]],
+					sortList: [[1,1]],
+					headers: {
+						1: { sorter: "Date" },
+						2: { sorter: "Size" }
+					}
+				});
+			}); 
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-49360848-1', 'samuelriversmoore.net');
+		  ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body>
+		<div id="container" class="js-disabled" data-enhance="false" data-role="none">
+			:content
+		</div>
+
+		<div id="container2">
+			<script type="text/javascript" charset="utf-8">
+				$('#container').removeClass('js-disabled').addClass("js-enabled");
+				$('#container2').remove();
+			</script>
+
+			:content2		
+		</div>
+		
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery.lazy.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="@root_path/public/docs/js/script.js"></script> 
+
+      
+      
+  </body>
+</html>

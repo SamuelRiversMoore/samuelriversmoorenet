@@ -1,0 +1,24 @@
+title: PP/PI ~ Introduction
+-
+date: 04-Jul-2013 00:05
+-
+tags: Introduction, Graduation
+-
+selection: yes
+-
+content: 
+<b>[Pirate Party / Pirate Identity]</b> (Graduation project)<br />
+<br />
+<u>Introduction</u> :<br />
+The Pirate Party is a young political party founded in Sweden in 2006 and gently seeding all over the world. <br />Post-internet culture is part of its DNA and its program mainly focuses on Human Rights and Fundamental Freedoms issues, as well as on contemporary copyright problematics.Surfing on a general exasperation towards conventional political parties, it presents itself as an alternative to the Left/Right divisions, as well as a solution to «upgrade» democracy for a more horizontal political system.<br />
+The Pirate Party acts as a bridge between, on the one hand, some more or less radical and structured political movements (Anonymous, WikiLeaks, GNU, etc.) and on the other hand, an institutional way to have an influence into the democratic process.<br />
+In most countries, its visual identity is quite conventional and its way to communicate is sometime very clumsy (like it’s the case in France).<br />
+Since the Pirate Party depicts itself as different, my project aims to experiment unconventional methods to design its visual identity. I also aim to imagine some envelopes that fits its ideas in a faithful way, rather than in a simplistic or watered down one.Thereby, my general matter is more about representing my subject rather than serving it.
+<br />
+<br />
+<u>Related</u> :<br />
+1. Introduction<br />
+<span class="related">2. [Identity](#PPPI-identity)</span><br />
+<span class="related">3. [Easy posters](#PPPI-easyposters)</span><br />
+<span class="related">4. [Twitter posters](#PPPI-twitterposters)</span><br />
+<span class="related">5. [Hybrid posters](#PPPI-hybridposters)</span><br />
