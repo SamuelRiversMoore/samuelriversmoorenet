@@ -13,6 +13,10 @@ content:
 Inspired by water, flags and captchas, this logo was built using PureData, an open source software originaly dedicated to sound and data streams. Its shape is always changing, influenced by random deformations and ondulations.<br />
 It plays with the oxymoron expressed by the Party's name, opposing the rigidity of institutional structures to the more dynamic, moving and undefined aspects of activism.  
 <br />
+<u>Fonts in use</u> :<br />
+Terminal Grotesque by Raphaël Bastide (custom version)<br />
+Linux Libertine by Philipp H. Poll<br />
+<br />
 <u>Related</u> :<br />
 <span class="related">1. [Introduction](#PPPI-introduction)</span><br />
 2. Identity<br />

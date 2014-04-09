@@ -115,7 +115,7 @@ jQuery(document).ready(function() {
 			setTimeout(function(){ firstImg.attr("src",firstSrc).removeClass("lazy")},1000);
 	});
 	// hide informations
-	$('#footer').find('input.infoBox').trigger('click');
+	//$('#footer').find('input.infoBox').trigger('click');
 });
 
 // Hide Before Load
@@ -123,7 +123,7 @@ $(document).ready(function() {
 	$data.find('tr.project').addClass("hidden");
 	$data.find('tr.expand-child').find('.child').hide().addClass("hidden");
 	$('#about').hide();
-	$data.find('div.infoSquare').hide().addClass('hidden');
+	$data.find('tr.expand-child').find('div.infoSquare').hide().addClass('hidden');
 	$('#otherProjects').hide();
 	$('#aboutButton').addClass("aboutHidden");
 	$(".hideBeforeLoad").removeClass("hideBeforeLoad");
@@ -438,11 +438,11 @@ $data.on('click', 'tr.project', function(event){
 
 	$data.on('click','.cross',function(event){
 		$this_child.find('.text.object').fadeOut(200).addClass('hidden').removeClass('infoShown');
-		$data.find('div.infoSquare').fadeIn(200);
+		$this_child.find('.infoSquare').fadeIn(200);
 	});
 	$data.on('click','.infoSquare',function(event){
 		$this_child.find('.text.object').fadeIn(200).removeClass('hidden').addClass('infoShown');
-		$data.find('div.infoSquare').fadeOut(200);
+		$this_child.find('.infoSquare').fadeOut(200);
 	});
 
 	//img count
