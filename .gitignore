@@ -2,3 +2,4 @@
 app/_cache/*
 !app/_cache/.gitignore
 logs
+.htacess
